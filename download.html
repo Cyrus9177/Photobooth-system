@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bea-utiful Collection - Your Memories</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="download">
+    <h1 class="corner-logo">The Bea-utiful Collection</h1>
+
+    <div class="main-container">
+        <div class="preview-section">
+            <canvas id="finalCanvas"></canvas>
+        </div>
+
+        <div class="frame-selection">
+            <h2>Choose Frame</h2>
+            
+            <div class="color-grid">
+                <button class="color-btn nude" data-color="nude">
+                    <span class="btn-highlight"></span>
+                </button>
+                <button class="color-btn pink" data-color="pink">
+                    <span class="btn-highlight"></span>
+                </button>
+                <button class="color-btn baby-blue" data-color="baby-blue">
+                    <span class="btn-highlight"></span>
+                </button>
+                <button class="color-btn burgundy" data-color="burgundy">
+                    <span class="btn-highlight"></span>
+                </button>
+                <button class="color-btn navy" data-color="navy">
+                    <span class="btn-highlight"></span>
+                </button>
+                <button class="color-btn mint" data-color="mint">
+                    <span class="btn-highlight"></span>
+                </button>
+                <button class="color-btn red" data-color="red">
+                    <span class="btn-highlight"></span>
+                </button>
+                <button class="color-btn polkadot" data-color="polkadot">
+                    <span class="btn-highlight"></span>
+                </button>
+                <button class="color-btn coral" data-color="coral">
+                    <span class="btn-highlight"></span>
+                </button>
+            </div>
+
+            <div class="button-container">
+                <a href="photobooth.html">
+                    <button class="romantic-btn secondary">Capture Again</button>
+                </a>
+                <button id="download-btn" class="romantic-btn">
+                    Save Your Memory
+                    <span class="heart-icon">♥</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="download.js"></script>
+</body>
+</html>
